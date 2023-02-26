@@ -1,0 +1,16 @@
+Binary Tree Chain Stucture
+
+#define ElemType int
+
+struct BiTNode;
+typedef struct BiTNode* pBiTNode;
+typedef pBiTNode BiTree;
+typedef pBiTNode Position;
+
+struct BiTNode
+{
+    ElemType data;
+
+    BiTree left; 
+    BiTree right;
+};
